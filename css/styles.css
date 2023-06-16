@@ -22,17 +22,18 @@ span {
   font-weight: bold;
 }
 
-.arepas {
+.paquetes {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
 
-.arepas > * {
-  flex: 1 1;
+.paquetes > * {
+  flex: 1 1 300px;
+ 
 }
 
-.arepa {
+.paquete {
   background: transparent;
   text-align: center;
   cursor: pointer;
@@ -42,10 +43,11 @@ span {
   transition: all 0.3s ease-out;
 }
 
-.arepa:hover {
+.paquete:hover {
+  opacity: 0.9;
   transform: scale(1.1);
 }
 
-.arepa figcaption {
+.paquete figcaption {
   padding: 1em;
 }
